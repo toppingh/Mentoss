@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html,body {
+    font-family: 'intelone-mono-font-family-regular';
+    width: 100%;
+    height: 100%;
+    color: #2A343D;
+    font-size:16px;
+}
+
+.main_logo {
+    width: 7%;
+    top: 13%;
+    position: absolute;
+    left: 48.5%;
+    
+}
+
+p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #562ED9;
+    left: 44%;
+    position: absolute;
+    top: 22%;
+}
+
+form{
+    width: 80%;
+    height: 100%;
+    font-size: 20px;
+}
+
+input{
+    border: none;
+    background: transparent;
+    width: 95%;
+    height: 50%;
+    font-size: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.email{
+    position: relative;
+    top: 40%;
+    left: 44%;
+    width: 40%;
+    height: 6%;
+    border: #562ED9 solid 2px;
+
+}
+
+button {
+    width: 40.3%;
+    text-align: center;
+    position: relative;
+    left: 44%;
+    top: 45%;
+    height: 6%;
+    font-size: larger;
+    background-color: #562ED9;
+    border: #562ED9;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #131314;
+    font-weight: 600;
+}
+
+
+button:active{
+    color: #fff;
+}
+
+button:hover{
+    background-color: #3e1ea7;
+    color: #b4b4b4;
+}
