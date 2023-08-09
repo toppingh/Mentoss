@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html,body {
+    font-family: 'intelone-mono-font-family-regular';
+    width: 100%;
+    height: 100%;
+    color: #2A343D;
+    font-size:16px;
+}
+
+.main_logo {
+    left: 36%;
+    top: 10%;
+    width: 30%;
+    position: absolute;
+}
+
+.profile {
+    position: relative;
+    left: 30%;
+    top: 20%;
+    
+}
+
+.profileImg {
+    position: relative;
+    width: 15%;
+    height: 25%;
+    top: 25%;
+    left: 30%;
+}
+
+.status {
+    position: relative;
+    top: 25%;
+    left: 36%;
+    font-size: 130%;
+    font-weight: 800;
+    color: #835eff;
+}
+
+.editProfile {
+    position: relative;
+    left: 60%;
+    width: 10%;
+    height: 5%;
+    border-radius: 10px;
+    border: none;
+    background-color: #562ED9;
+    color: #fff;
+    font-weight: 600;
+}
+
+.editProfile:hover {
+    background-color: #3c2391;
+    color: #d6d6d6;
+}
+
+.nickname {
+    position: relative;
+    text-align: center;
+    left: 5%;
+    top: 4%;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.email {
+    position: relative;
+    text-align: center;
+    left: 7.5%;
+    top: 2%;
+    font-size: 150%;
+}
+
+.list-group {
+    position: relative;
+    top: 10%;
+    left: 31%;
+    font-size: 120%;
+    width: 40%;
+    cursor: pointer;
+    
+}
+
+.list-group-item:hover {
+    background-color: #e3dff0;
+}
+
+a {
+    text-decoration: none;
+    color: #2A343D;
+}
+
+.logout {
+    position: relative;
+    top: 15%;
+    left: 49%;
+    font-size: 150%;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #676767;
+}
