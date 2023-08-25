@@ -24,7 +24,7 @@ html,body {
 
 .code {
     position: relative;
-    left: 35%;
+    left: 37%;
     font-size: large;
 }
 
@@ -79,4 +79,8 @@ html,body {
     color: #fff;
     border-radius: 5px;
     font-weight: 600;
+}
+
+.name {
+    color: #000;
 }

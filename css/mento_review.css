@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html,body {
+    font-family: 'intelone-mono-font-family-regular';
+    width: 100%;
+    height: 100%;
+    color: #2A343D;
+    font-size:16px;
+}
+
+.info {
+    position: relative;
+    top: -30%;
+    left: 5%;
+}
+
+.profile {
+    width: 20%;
+}
+
+
+.name {
+    font-size: x-large;
+    position: relative;
+    left: 8%;
+    font-weight: 700;
+}
+
+.career {
+    position: relative;
+    left: 7%;
+    font-size: larger;
+}
+
+.major {
+    position: relative;
+    left: 6%;
+    font-size: larger;
+}
+
+.github {
+    position: relative;
+    left: 5.5%;
+    font-size: larger;
+    color: #2A343D;
+    font-weight: 600;
+}
+
+.stack {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: -10%;
+}
+
+.language {
+    font-weight: bolder;
+    color: #2d067b;
+}
+
+.content_s {
+    position: relative;
+    left: -0.5%;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.review {
+    position: relative;
+    left: 12.2%;
+}
+
+.project {
+    text-align: center;
+    position: relative;
+    top: 28%;
+    left: -9.3%;
+}
+
+.content_p {
+    position: relative;
+    left: 7.5%;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.self {
+    text-align: center;
+    position: relative;
+    top: 32%;
+    left: -7.8%;
+}
+
+.content_i {
+    position: relative;
+    left: 11%;
+    font-size: larger;
+
+}

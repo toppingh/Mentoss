@@ -1,0 +1,100 @@
+/* body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+} */
+
+.image {
+    position: relative;
+    background-color: #140B28;
+    height: 10px;
+    top: -250px;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 25rem;
+    background-image: url('../media/menlog.png');
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-wrapper {
+    height: 400px;
+    position: relative;
+    width: 1610px;
+    display: block;
+    margin: 50px auto;
+    /* border: 2px solid black;/ */
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+[id^= "item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background-image: url('../media/menlog.png');
+    background-size: cover;
+    left: -50px;
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    left: 20%;
+    top: 50px;
+
+}
+
+.container header {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.title {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    top: 110px;
+    left: 20%;
+}
+
+.title header {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
